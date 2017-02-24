@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|images|fonts|js|css|.css|.js|.jpg|.jpeg|.png|.gif|.swf|ass|user_templ|admin_temple)
+RewriteRule ^(.*)$ http://localhost/te7a/index.php/$1 [L]
